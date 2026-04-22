@@ -29,3 +29,17 @@
 <img width="838" height="528" alt="image" src="https://github.com/user-attachments/assets/01c25739-be68-4ea6-bd8d-03adf348e031" />
   
   ### Podemos ver variables como Parch y Sibsp con mas de un 0.40 una de las mas cercanas a 1, lo que nos indica que cuando suben una tiende a subir la otra.
+
+## Importancia De Variables 
+<img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/dfac674a-c651-4acc-9995-3ed54d20826c" />
+  
+  ### Este Grafico es uno de los mas importantes principalmente para el ajuste del modelo, nos muestra cual es la importancia de las variables dentro del modelo. Se utiliza La Reduccion de Impureza de Gini que mide como estan mezcladas las clases en un nodo y cuanta mas cerca el valor a 0 significa que esta mas libre de Impureza, en este caso utilizamos la funcion "features_importances" que viene en la libreria de Scikit-Learn y que nos calcula que tanta impureza logro reducir cada variable en promedio. Las variables que limpian mejor los datos, ganan los puntajes mas altos.
+
+  ### En este caso observamos algo curioso y es una distribucion Heterogenea en las importancias de las variables en el modelo, con un claro ganador por diferencia como es la variables "Sex". Este grafico nos ayuda a visualizar con las que nos covendria quedarnos en caso de un nuevo entrenamiento unicamente filtrando las que cumplan un minimo de importancia.
+
+## Prediccion del Modelo
+<img width="831" height="528" alt="image" src="https://github.com/user-attachments/assets/9bdf205a-1e66-4a37-bc6b-97887d2a3ab6" />
+
+## Metricas De Evaluacion
+<img width="1501" height="512" alt="image" src="https://github.com/user-attachments/assets/ccef2c65-199b-4488-a3b3-f099103065e4" />
+
