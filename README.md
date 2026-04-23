@@ -1,4 +1,5 @@
 # Analisis y Predicciones de Data Set Titanic
+### Link del dataset: https://www.kaggle.com/datasets/shuofxz/titanic-machine-learning-from-disaster
 ## Resumen del Proyecto
 ### El Titanic, una de las embarcaciones mas impresionante y famosas que a visto la humanidad y en este esta basasdo su Data Set. El Data Set consta de 11 Columnas de diferentes tipos como age(edad), fare(precio del boleto) Pclass(Clase dentro del barco) etc. El objetivo principal de las predicciones era lograr mas de un 80% en la metrica accuracy y utilizando el modelo Random Forest lo cual fue logrado con exito. 
 
