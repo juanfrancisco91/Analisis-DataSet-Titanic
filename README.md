@@ -38,8 +38,16 @@
   ### En este caso observamos algo curioso y es una distribucion Heterogenea en las importancias de las variables en el modelo, con un claro ganador por diferencia como es la variables "Sex". Este grafico nos ayuda a visualizar con las que nos covendria quedarnos en caso de un nuevo entrenamiento unicamente filtrando las que cumplan un minimo de importancia.
 
 ## Prediccion del Modelo
+
 <img width="831" height="528" alt="image" src="https://github.com/user-attachments/assets/9bdf205a-1e66-4a37-bc6b-97887d2a3ab6" />
 
+
 ## Metricas De Evaluacion
+
 <img width="1501" height="512" alt="image" src="https://github.com/user-attachments/assets/ccef2c65-199b-4488-a3b3-f099103065e4" />
+  
+  ### Utilizamos 3 metricas para evaluar el modelo accuracy, recall y precision.
+  Con unos resultados bastantes solidos con mas de un 80% de accuracy lo que nos dice que el modelo clasifica bien entre las clases a predecir.
+  El Recall nos cuenta la cantidad de Falsos negativos que captura el modelo con mas de un 80%
+  Precision con mas de un 70% captura los Falsos positivos que captura el modelo,
 
